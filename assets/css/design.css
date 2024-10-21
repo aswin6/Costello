@@ -1,0 +1,25 @@
+.sponsors {
+    display: flex;
+    justify-content: center; /* Centers all sponsor items horizontally */
+    gap: 40px; /* Adds space between the sponsor items */
+    align-items: center; /* Aligns items vertically if they have different heights */
+  }
+  
+  .sponsor-item {
+    text-align: center; /* Centers the heading and image within each sponsor block */
+  }
+  
+  .sponsor-item img {
+    max-width: 150px; /* Adjust the image size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Adds space between the heading and the image */
+  }
+  
+  .sponsor-item h4 {
+    margin-bottom: 10px; /* Space below the heading and above the image */
+  }
+  
+  .section-heading {
+    margin-bottom: 50px; /* Space below the main "Our Sponsors" heading */
+  }
+  
